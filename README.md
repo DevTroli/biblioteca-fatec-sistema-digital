@@ -12,7 +12,34 @@
 
 O **Palácio Mental** é uma plataforma web de compartilhamento de projetos e ideias acadêmicas. Funciona como a fusão de um portfólio pessoal, rede social criativa e biblioteca de projetos — permitindo que estudantes publiquem, evoluam e compartilhem suas criações com a comunidade universitária.
 
-O problema que resolve é simples: a maioria dos projetos feitos em faculdades de tecnologia morre num ZIP depois da entrega. O GitHub é voltado a código, o LinkedIn é genérico demais, o Behance é só para design. **Não existe uma plataforma centrada no projeto acadêmico de tecnologia — no processo, na ideia, na evolução, não só no produto final.**
+**Escrever num pitch melhor para vender a ideia**
+
+---
+
+## 👥 Equipe
+
+| Papel | Membro |
+|---|---|
+| Database Lead | Pablo Troli |
+| Backend | Felipe Figueiredo |
+| DevOps Lead | Matheus Fernandes |
+| UI/UX Designer | Yohan Ruiz |
+| Backend Lead | Eduardo Elias |
+| FrontEnd Lead | Iago Sampaio |
+
+---
+
+## 📊 Status Atual
+
+**Fase:** Milestone 1 — Fundação de Banco de Dados
+
+| Entregável | Progresso |
+|---|---|
+| Modelo conceitual (DER) | ✅ 100% |
+| Modelo lógico (tabelas e FKs) | ✅ 100% |
+| DDL Oracle (CREATE TABLE) | 🔄 Em andamento |
+| Dados de seed | 🔲 Pendente |
+| Documentação ABNT | 🔄 Em andamento |
 
 ---
 
@@ -27,65 +54,16 @@ O problema que resolve é simples: a maioria dos projetos feitos em faculdades d
 
 ---
 
-## 👥 Equipe
-
-| Papel | Membro |
-|---|---|
-| Definir | Pablo Troli |
-| Definir | Felipe Figueiredo |
-| Definir | Matheus Fernandes |
-| Definir | Yohan Ruiz |
-| Definir | Eduardo Elias |
-| Definir | Iago Sampaio |
-
----
-
-## 🗃️ Modelagem de Banco de Dados (Fase Atual)
-
-O projeto está na **Fase 1 — Banco de Dados Relacional** com Oracle.
-
-### Entidades principais
-
-- **USUARIO** — perfis de criadores da plataforma
-- **PROJETO** — ideias e trabalhos publicados (entidade central)
-- **CATEGORIA** — classificação principal dos projetos
-- **TAG** — palavras-chave livres para descoberta
-- **COMENTARIO** — feedback da comunidade (entidade fraca)
-- **MIDIA** — arquivos e links associados aos projetos (entidade fraca)
-- **CURTIDA** — interação N:M entre USUARIO e PROJETO
-- **SALVO** — curadoria pessoal N:M entre USUARIO e PROJETO
-- **PROJETO_TAG** — tabela associativa N:M entre PROJETO e TAG
-
-### Diagramas
-
-- Modelo Conceitual: `/database/diagrams/modelo_conceitual.png`
-- Modelo Lógico: `/database/diagrams/modelo_logico.png`
-- Scripts DDL: `/database/migrations/`
-
----
-
 ## 🛠️ Stack Tecnológica
 
 | Camada | Tecnologia |
 |---|---|
 | Banco de Dados | Oracle Database XE / Oracle Cloud |
-| Backend | A definir |
+| Backend | PHP/Laravel |
 | Frontend | A definir |
 | Design | Figma |
 | DevOps | Docker + GitHub Actions |
-| Hospedagem | A definir |
-
----
-
-## 📅 Roadmap
-
-| Fase | Entregável | Status |
-|---|---|---|
-| 0 — Planejamento | Visão, escopo, equipe, pesquisa | ✅ Concluído |
-| 1 — Banco de Dados | Modelo conceitual + lógico + DDL Oracle | ✅ Em andamento |
-| 2 — Backend | API REST | 🔲 Próximo |
-| 3 — Frontend | Interface responsiva | 🔲 Pendente |
-| 4 — DevOps | Docker + CI/CD + Deploy | 🔲 Pendente |
+| Hospedagem | Vercel (?)|
 
 ---
 
@@ -113,6 +91,28 @@ palacio-mental/
 
 ---
 
+## 🗃️ Modelagem de Banco de Dados
+
+### Entidades principais
+
+- **USUARIO** — perfis de criadores da plataforma
+- **PROJETO** — ideias e trabalhos publicados (entidade central)
+- **CATEGORIA** — classificação principal dos projetos
+- **TAG** — palavras-chave livres para descoberta
+- **COMENTARIO** — feedback da comunidade (entidade fraca)
+- **MIDIA** — arquivos e links associados aos projetos (entidade fraca)
+- **CURTIDA** — interação N:M entre USUARIO e PROJETO
+- **SALVO** — curadoria pessoal N:M entre USUARIO e PROJETO
+- **PROJETO_TAG** — tabela associativa N:M entre PROJETO e TAG
+
+### Diagramas
+
+- Modelo Conceitual: `/database/diagrams/modelo_conceitual.png`
+- Modelo Lógico: `/database/diagrams/modelo_logico.png`
+- Scripts DDL: `/database/migrations/`
+
+---
+
 ## 🔧 Como Contribuir
 
 1. Leia o `Docs/GUIA_GITHUB_GESTAO.md` antes de qualquer coisa
@@ -123,18 +123,8 @@ palacio-mental/
 
 ---
 
-## 📊 Status Atual
 
-**Fase:** Milestone 1 — Fundação de Banco de Dados
-
-| Entregável | Progresso |
-|---|---|
-| Modelo conceitual (DER) | ✅ 100% |
-| Modelo lógico (tabelas e FKs) | ✅ 100% |
-| DDL Oracle (CREATE TABLE) | 🔄 Em andamento |
-| Dados de seed | 🔲 Pendente |
-| Documentação ABNT | 🔄 Em andamento |
 
 ---
 
-**Coordenador:** Marci Galvão · **Contato da equipe:** GitHub Issues / Discord
+**Coordenador:** Marcio Galvão · **Contato da equipe:** GitHub Issues / Discord
