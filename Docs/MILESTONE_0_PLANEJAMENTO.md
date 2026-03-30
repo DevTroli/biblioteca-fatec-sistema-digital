@@ -68,7 +68,7 @@ Projetos acadêmicos morrem num ZIP depois da entrega. para outros estudantes co
 ├──────────────────────────────────────────────────────┤
 │                     SQL / REST                        │
 ├──────────────────────────────────────────────────────┤
-│  BACKEND          Auth · API REST · Busca nativa      │  ← Fase 2
+│  BACKEND          Auth · API REST · Busca nativa      │  ← Fase 2 🔄 
 ├──────────────────────────────────────────────────────┤
 │                   JSON via browser                    │
 ├──────────────────────────────────────────────────────┤
@@ -86,8 +86,8 @@ Projetos acadêmicos morrem num ZIP depois da entrega. para outros estudantes co
 |---|---|---|
 | Banco de Dados | Oracle XE + Oracle APEX | ✅ Confirmado |
 | Modelagem | BrModelo + DBDesigner | ✅ Confirmado |
-| Backend | `[A definir na Fase 2]` | 🔲 |
-| Frontend | `[A definir na Fase 3]` | 🔲 |
+| Backend | PHP/Laravel | 🔲 A validar |
+| Frontend | `[A definir na Fase 3]` | 🔄  pensando... |
 | DevOps | Docker + Terraform + GitHub Actions | 🔲 A validar |
 
 ---
@@ -96,12 +96,12 @@ Projetos acadêmicos morrem num ZIP depois da entrega. para outros estudantes co
 
 | Papel | Membro |
 |---|---|
-| `[A definir]` | Pablo Troli |
-| `[A definir]` | Felipe Figueiredo |
-| `[A definir]` | Iago Sampaio |
-| `[A definir]` | Matheus Fernandes |
-| `[A definir]` | Yohan Ruiz |
-| `[A definir]` | Eduardo Elias |
+| `Database Lead` | Pablo Troli |
+| `BackEnd` | Felipe Figueiredo |
+| `FrontEnd Lead` | Iago Sampaio |
+| `DevOps Lead` | Matheus Fernandes |
+| `UI/UX Designer` | Yohan Ruiz |
+| `BackEnd Lead` | Eduardo Elias |
 
 ---
 
@@ -109,9 +109,9 @@ Projetos acadêmicos morrem num ZIP depois da entrega. para outros estudantes co
 
 | Fase | Entregável principal | Período | Status |
 |---|---|---|---|
-| 0 — Planejamento | Visão, escopo, CLEAR, equipe | Fev/2026 | ✅ |
-| 1 — Banco de Dados | Conceitual + Lógico + DDL + Docs | Mar/2026 | 🔄 |
-| 2 — Backend | API REST + Autenticação | Abr/2026 | 🔲 |
+| 0 — Planejamento | Visão, escopo, CLEAR, equipe | Março/2026 | ✅ |
+| 1 — Banco de Dados | Conceitual + Lógico + DDL + Docs | Abril/2026 | ✅ |
+| 2 — Backend | API REST + Autenticação | Abr/2026 | 🔄  |
 | 3 — Frontend | Interface — 4 telas principais | Mai/2026 | 🔲 |
 | 4 — DevOps | Docker + CI/CD + Deploy | Jun/2026 | 🔲 |
 
@@ -120,12 +120,12 @@ Projetos acadêmicos morrem num ZIP depois da entrega. para outros estudantes co
 ## ✅ Checklist de conclusão
 
 - [x] Nome do projeto decidido e justificado
-- [] Proposta de valor articulada
+- [X] Proposta de valor articulada
 - [x] Público-alvo definido
-- [] MoSCoW definido
+- [X] MoSCoW definido
 - [x] Arquitetura conceitual desenhada
 - [x] Repositório GitHub criado e workflow de Git definido
-- [ ] Métricas de sucesso definidas com o grupo
-- [ ] Stack de Backend confirmada
+- [X] Métricas de sucesso definidas com o grupo
+- [X] Stack de Backend confirmada
 - [ ] Stack de Frontend confirmada
-- [ ] Todos os papéis preenchidos
+- [X] Todos os papéis preenchidos

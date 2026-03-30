@@ -1,6 +1,6 @@
 # 🏗️ Milestone 1 — Fundação: Banco de Dados
 **Palácio Mental · Projeto Integrador · Engenharia de Software · Fatec Praia Grande**
-> Status: 🔄 Em andamento · Período: Mar/2026 · Responsável:  A definir
+> Status: 🔄 Em andamento · Período: Abril/2026 · Responsável:  Troli
 
 ---
 
@@ -13,9 +13,9 @@ Entregar a fundação do banco de dados do Palácio Mental no Oracle: modelo con
 ## Entidades
 
 ### Central
-| Entidade | Tipo | Por quê |
-|---|---|---|
-| PROJETO | Central | Pivot do sistema — tudo gira em torno de projetos publicados |
+| Entidade | Por quê |
+|---|---|
+| PROJETO | Pivot do sistema — tudo gira em torno de projetos publicados |
 
 ### Fortes (independentes)
 | Entidade | Descrição |
@@ -70,7 +70,7 @@ Entregar a fundação do banco de dados do Palácio Mental no Oracle: modelo con
 
 ---
 
-## Requisitos Funcionais — escopo desta fase
+## Requisitos Funcionais — escopo atual
 
 | Código | Requisito | Entidade(s) envolvida(s) |
 |---|---|---|
@@ -121,9 +121,9 @@ Esta fase entrega a fundação. As próximas fases constroem em cima:
 
 ## ✅ Checklist de conclusão
 
-- [] Modelo conceitual (DER) criado e validado
+- [X] Modelo conceitual (DER) criado e validado
 - [] Modelo lógico (tabelas + FKs + tipos) definido
-- [] Regras de negócio documentadas
+- [X] Regras de negócio documentadas
 - [x] Documentação ABNT — rascunho entregue
 - [ ] Scripts DDL Oracle escritos e testados
 - [ ] Constraints e índices aplicados e validados

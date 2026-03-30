@@ -6,12 +6,11 @@
 
 ## 🏗️ Proposta de Atribuições (6 pessoas)
 
-### 1. Tech Lead 
+### 1. Tech Lead (Troli)
 
 **Responsabilidades principais:**
 - Define e documenta a arquitetura do sistema (camadas, fluxo de dados, padrões)
 - Resolve conflitos técnicos quando duas pessoas têm abordagens diferentes
-- Faz code review das partes críticas (autenticação, integração banco-backend)
 - Garante que há documentação técnica suficiente para os outros seguirem
 - É o "desempacador" - quando alguém está travado em um problema técnico, ajuda a destrancar
 
@@ -22,14 +21,17 @@
 
 ---
 
-### 2. Backend Lead
+### 2. Backend Lead (Eduardo & Felipe)
 
 **Responsabilidades principais:**
+- Elaborar uma API Rest
 - Desenvolve os controllers (endpoints da API)
 - Implementa os services (lógica de negócio)
+- Implementa health check e status page
 - Define os DTOs (Data Transfer Objects - estruturas de dados que trafegam pela API)
 - Integra com o banco de dados
 - Documenta a API (quais endpoints existem, o que cada um faz, exemplos de requisição/resposta)
+- Executar os models e view em cima das regras dse negocio
 
 **Habilidades importantes:**
 - Confortável com orientação a objetos
@@ -38,7 +40,7 @@
 
 ---
 
-### 3. Database Lead
+### 3. Database Lead (Troli)
 
 **Responsabilidades principais:**
 - Cria os diagramas conceituais, lógicos e físicos do banco de dados
@@ -55,7 +57,7 @@
 
 ---
 
-### 4. Frontend Lead
+### 4. Frontend Lead (Iago)
 
 **Responsabilidades principais:**
 - Traduz designs do Figma em FronEnd
@@ -67,14 +69,14 @@
 - Implementa validações de formulário
 
 **Habilidades importantes:**
-- HTML, CSS, JavaScript sólidos
+- HTML, CSS, JavaScript, PHP
 - Outra tecnologia não decidida
 - Noção de UX (experiência do usuário)
 - Atenção a detalhes visuais
 
 ---
 
-### 5. UI/UX Designer
+### 5. UI/UX Designer (Yohan)
 
 **Responsabilidades principais:**
 - Cria wireframes (esboços de baixa fidelidade das telas)
@@ -91,7 +93,7 @@
 
 ---
 
-### 6. DevOps
+### 6. DevOps (Mathues)
 
 **Responsabilidades principais:**
 - Configura o repositório GitHub (branches, proteções, CI/CD)
@@ -100,7 +102,6 @@
 - Faz deploy do backend (pode ser Heroku, Railway, Render)
 - Faz deploy do frontend
 - Configura banco de dados em produção (NeonDB)
-- Implementa health check e status page
 - Configura ferramentas de monitoramento e logs
 - Pode configurar GitHub Actions para testes automáticos
 
@@ -111,7 +112,7 @@
 
 ---
 
-### 7. Product Owner / Documentação Lead
+### 7. Product Owner / Documentação Lead (Matheus & Troli)
 
 **Responsabilidades principais:**
 - Faz pesquisa com alunos (entrevistas, questionários) para entender necessidades
@@ -133,5 +134,5 @@
 
 ---
 
-**Data da última atualização:** 19/02/2026
-**Revisão necessária:** 26/02/2026
+**Data da última atualização:** 30/03/2026
+**Revisão necessária:** 7/04/2026

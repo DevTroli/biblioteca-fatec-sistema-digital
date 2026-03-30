@@ -10,11 +10,11 @@
 
 ### Estrutura
 - [ ] Criar estrutura de pastas (backend, frontend, docs, database)
-- [ ] Adicionar README.md principal com:
-  - [ ] Descrição do projeto
+- [X] Adicionar README.md principal com:
+  - [X] Descrição do projeto
   - [ ] Instruções de setup
-  - [ ] Como contribuir
-  - [ ] Links para documentação
+  - [X] Como contribuir
+  - [X] Links para documentação
 - [ ] Adicionar .gitignore apropriado para stack escolhida
 
 ### Branches
@@ -24,11 +24,11 @@
 - [ ] Definir `develop` como branch padrão para PRs
 
 ### Issues e Projects
-- [ ] Criar templates de issues
-- [ ] Criar labels (tipo, componente, prioridade)
-- [ ] Criar projeto Kanban
-- [ ] Configurar colunas do board
-- [ ] Criar milestones para cada fase
+- [X] Criar templates de issues
+- [X] Criar labels (tipo, componente, prioridade)
+- [X] Criar projeto Kanban
+- [X] Configurar colunas do board
+- [X] Criar milestones para cada fase
 
 ### Automação
 - [ ] Configurar auto-link de issues em PRs
@@ -36,10 +36,10 @@
 - [ ] (Opcional) Configurar GitHub Actions básico
 
 ### Documentação
-- [ ] Adicionar template de Pull Request
+- [X] Adicionar template de Pull Request
 - [ ] Adicionar CONTRIBUTING.md (como contribuir)
 - [ ] Adicionar LICENSE (se for open source)
-- [ ] Adicionar documentos de cada milestone em /docs
+- [X] Adicionar documentos de cada milestone em /docs
 
 ---
 ## 📁 Proposta Estrutura do Repositório
@@ -493,6 +493,6 @@ Se configuraram GitHub Actions, mostrar: "Todo PR automaticamente roda testes. V
 ---
 
 **Documento criado:** 19/02/2026
-**Última atualização:** 21/02/2026
+**Última atualização:** 30/03/2026
 **Responsável por manter:** DevOps Lead
 
